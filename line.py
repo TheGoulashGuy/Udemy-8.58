@@ -25,7 +25,7 @@ class Line(object):
         slope = str(slope)
         print(slope + " units")
 coordinate1 = (33,  4)
-coordinate2 = (57,  12)6
+coordinate2 = (57,  12)
 result = Line(coordinate1, coordinate2)
 result.distance()
 result.slope()
