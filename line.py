@@ -14,7 +14,7 @@ class Line(object):
         sum_of_squares = ((self.coor2[0]-self.coor1[0])**2) + ((self.coor2[1]-self.coor1[1])**2)
         distance = cmath.sqrt(sum_of_squares)
         distance = str(distance)
-        print(distance + " units")
+        print("The distance is" + distance + " units")
         
     def slope(self):
         self.coor1 = list(self.coor1)
@@ -23,7 +23,7 @@ class Line(object):
         run = float(self.coor2[0]-self.coor1[0])
         slope = (rise / run)
         slope = str(slope)
-        print(slope + " units")
+        print("The slope is" + slope + " units")
 coord1_input = input("Enter the first coordinate (x,y): ")
 coord2_input = input("Enter the second coordinate: ")
 coord1_input = list(coord1_input)
